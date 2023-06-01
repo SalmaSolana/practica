@@ -13,7 +13,7 @@ class ExampleTest extends TestCase
 
     public function testing() 
     {
-        $expected = '';
+        $expected = 'sisi';
         $actual = 'text';
 
         $this->assertEquals($expected, $actual);
