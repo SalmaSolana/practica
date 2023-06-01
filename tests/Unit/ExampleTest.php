@@ -11,12 +11,19 @@ class ExampleTest extends TestCase
         $this->assertTrue(true);
     }
 
-    public function testing() 
+    public function retest() 
     {
-        $expected = 'text';
-        $actual = 'text';
-
+        $expected = 520;
+        $actual = 520;
         $this->assertEquals($expected, $actual);
+    }
+  
+    public function test()
+    {
+      $expected = 'text';
+      $actual = 'text';
+      
+      $this->assertEquals($expected, $actual);
     }
     
         
