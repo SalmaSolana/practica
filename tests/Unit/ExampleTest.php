@@ -9,6 +9,15 @@ class ExampleTest extends TestCase
     public function test_that_true_is_true()
     {
         $this->assertTrue(true);
-    } 
+    }
+
+    public function testing() 
+    {
+        $expected = '';
+        $actual = 'text';
+
+        $this->assertEquals($expected, $actual);
+    }
+    
         
 }
