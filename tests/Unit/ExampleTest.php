@@ -25,6 +25,22 @@ class ExampleTest extends TestCase
       
       $this->assertEquals($expected, $actual);
     }
+
+    public function test1()
+    {
+      $expected = 'text';
+      $actual = 'text';
+      
+      $this->assertEquals($expected, $actual);
+    }
+
+    public function test2()
+    {
+      $expected = 'text';
+      $actual = 'text';
+      
+      $this->assertEquals($expected, $actual);
+    }
     
         
 }
